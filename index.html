@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+   <section class="header">
+       <nav>
+           <a href="index.html"> </a>
+           <div class="nav-link" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars"onclick="showMenu()"></i>
+       </nav>
+
+       <div class="text-box">
+           <h1>JA-DAHS University</h1>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Laudantium harum magni eligendi! Culpa ea error asperiores.</p>
+           <a href="" class="hero" >Visit Us To Know More</a>
+       </div>
+   </section> 
+   <script>
+       var navlinks = document.getElementById("navlinks");
+       function showMenu() {
+           navlinks.style.right = "0";
+       }
+
+       function hideMenu() {
+           navlinks.style.right = "-200px";
+       }
+   </script>
+
+   <!--courses--->
+   <section class="Course">
+       <h1>Courses We Offer</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+       <div class="row">
+           <div class="course-col">
+               <h3>Diploma</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, doloribus hic. Reprehenderit doloremque, enim non, placeat perspiciatis magnam laboriosam porro quod dolorum cumque provident nostrum tempore blanditiis ut repellendus ratione.</p>
+           </div>
+
+           <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, doloribus hic. Reprehenderit doloremque, enim non, placeat perspiciatis magnam laboriosam porro quod dolorum cumque provident nostrum tempore blanditiis ut repellendus ratione.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, doloribus hic. Reprehenderit doloremque, enim non, placeat perspiciatis magnam laboriosam porro quod dolorum cumque provident nostrum tempore blanditiis ut repellendus ratione.</p>
+        </div>
+
+       </div>
+   </section>
+
+
+<!--campus-->
+
+   <section class="Campus">
+       <h1>Our Global Campus</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+       <div class="row">
+           <div class="campus-col">
+              <img src="images/businesspeopleenteringofficebuilding.jpg">
+              <h3>PORT-HARCOURT</h3>
+           </div>
+           <div class="layer">
+            
+           </div>
+
+           <div class="campus-col">
+              <img src="images/giantbuildingwithsun.jpg">
+              <h3>ABUJA</h3>
+           </div>
+           <div class="layer">
+            
+           </div>
+
+           <div class="campus-col">
+              <img src="images/plainconcretestructurecity.jpg">
+              <h3>LAGOS</h3>
+           </div>
+           <div class="layer">
+
+           </div>
+
+       </div>
+   
+
+   </section>
+
+   <!--facilities-->
+
+   <section class="facilities">
+       <h1>Our Facilities</h1>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+       <div class="row">
+           <div class="facilities-col">
+               <img src="images/IMG7066.JPG">
+               <h3>Standard Library</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit explicabo alias voluptates excepturi nesciunt quia unde, debitis qui.</p>
+           </div>
+
+           <div class="facilities-col">
+            <img src="images/IMG7067.JPG">
+            <h3>Standard play-ground</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit explicabo alias voluptates excepturi nesciunt quia unde, debitis qui.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/woman-looking-tube-medium-shot.jpg">
+            <h3>Standard Laboratory</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit explicabo alias voluptates excepturi nesciunt quia unde, debitis qui.</p>
+        </div>
+
+       </div>
+   </section>
+
+   <!---testimonial-->
+   <section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer.jpg">
+           <div>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolor sint optio accusantium porro doloribus molestias nostrum eius reprehenderit. Placeat, minus sit eaque asperiores cumque officia nulla autem quasi dolorem.</p>
+               <h3>Micheal Jack</h3>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+              
+           </div>
+        </div>
+
+           <div class="testimonial-col">
+            <img src="images/cheerful-teenager-with-toothy-smile-afro-hairstyle-holds-modern-cell-phone-chats-online-with-boyfriend.jpg">
+           <div>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolor sint optio accusantium porro doloribus molestias nostrum eius reprehenderit. Placeat, minus sit eaque asperiores cumque officia nulla autem quasi dolorem.</p>
+               <h3>Angel Bante</h3>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i>
+              
+            
+           </div>
+        </div>
+
+    </div>
+
+   </section>
+
+   <!--call to action-->
+   <section class="cta">
+       <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
+       <a href="" class="hero">CONTACT US</a>
+   </section>
+
+   <!--footer-->
+   <section class="footer">
+       <h4>About Us</h4>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, <br>velit architecto dignissimos dolorem labore corrupti, praesentium suscipit ducimus esse quaerat consectetur </p>
+
+        <!-- Add icon library -->
+       <div class="icons">
+         
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+       </div>
+       <p>Made With <a href="#" class="fa fa-heart-o"></a> By JWON </p>
+   </section>
+
+</html>
